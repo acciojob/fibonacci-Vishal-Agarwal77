@@ -1,12 +1,10 @@
 function fibonacci(num) {
 // your code here
 	if(num===0){
-		console.log(0);
-		return ;
+		return 0;
 	}
 	else if(num===1){
-		console.log(1);
-		return ;
+		return 1;
 	}
 	let prev=0;
 	let curr=1;
@@ -16,7 +14,6 @@ function fibonacci(num) {
 		prev=curr;
 		curr=next;
 	}
-	console.log(next);
-	return ;
+	return next;
 }
 module.exports = fibonacci;
