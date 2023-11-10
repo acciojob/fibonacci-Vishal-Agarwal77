@@ -8,7 +8,7 @@ function fibonacci(num) {
 	}
 	let prev=0;
 	let curr=1;
-	let next=0;
+	let next=1;
 	for(let i=2;i<num;i++){
 		next=curr+prev;
 		prev=curr;
